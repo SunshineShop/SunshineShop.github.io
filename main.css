@@ -1,0 +1,139 @@
+  p{
+ 	 color:blue;
+ 	  font-size:30px;
+   }
+   .listitem{
+   	    color:red;
+   	    font-size:20px;
+   }
+
+   .paragraph{
+        color:blue;
+        font-size:35px;
+   } 
+
+   #background{
+    background-color:#ffcccc;
+   }
+
+   #button{
+    width:300px;
+    height:150px;
+    color:white;
+    background-color:black;
+    border-radius:15px;
+   }
+
+   header{
+    height:100px;
+    width:35%;
+    border:2px solid yellow;
+    background-color:#e6e6ff;
+    margin-bottom:25px;
+  }
+
+    footer {
+     height:100px;
+     width:35%;
+     border:2px solid yellow;
+     background-color:#e6e6ff;
+    }
+
+    .wrap-trivia{
+       height:200px;
+      width:150px;
+      border:4px double orange;
+      margin-left:25px;
+      padding-left:25px; 
+    }
+
+    .wrap-list{
+       height:300px;
+       width:350px;
+       border:5px dashed #b3ffb3;
+    }
+
+    .wrap-text {
+      color:#3366cc;
+      font-size:30px;
+      border:5px groove #cc33ff;
+    }
+
+    #one{
+      height:150px;
+      width:150px;
+      background-color:yellow;
+      display:inline-block;
+      position:absolute;
+      z-index:2;
+    }
+
+    #two{
+      height:150px;
+      width:150px;
+      background-color:orange;
+      display:inline-block;
+      position:absolute;
+      z-index:1;
+      position:relative;
+      top:1000px;
+    }
+
+    #three{
+      height:150px;
+      width:150px;
+      background-color:green;
+      display:inline-block;
+      position:absolute;
+      position:fixed;
+      left:25%;
+    }
+
+    #four{
+      height:2048px;
+    }
+
+    .navitem{
+     list-style-type:none;
+     display:inline;
+     padding:1em;
+     border-color:yellow;
+     background:#b3ffb3;
+    }
+
+    #navmenu{
+      width:250px;
+      height:17px;
+      margin:auto;
+      font-size:14px;
+      background-color:#ffe6ff;
+    }
+
+    a:link;{
+      color:green;
+    }
+
+    a:visited;{
+      color:black;
+    }
+
+    a:hover;{
+      color:white;
+    }
+
+    a:active;{
+      color:yellow
+    }
+
+    #rightside{
+      float:right;
+      width:25px;
+    }
+
+    #leftside{
+      width:25px;
+    }
+
+    #clearfloat{
+      clear:both;
+    }

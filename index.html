@@ -1,0 +1,91 @@
+<html> 
+ <head>
+  <link type="text/css" rel="stylesheet" href="main.css"/>
+  <title>The Sunshine Shop </title> 
+     <style>
+         
+     </style>
+     <script>
+    function banner(){ 
+var text = confirm("Did You Really Want to Click on My Banner?"); 
+return text; 
+}
+   function answer(){ 
+  var radio = document.getElementsByName("Produce"); 
+var selection = false; 
+var message = "";
+for( var i = 0; i < radio.length; i++) { 
+if(radio[i].value == "Correct" && radio[i].checked == true) { 
+selection = true; 
+} //end if statement 
+} //end for loop
+
+if(selection == true) {
+message = message + "<b><p style='color:green'>Way to go!</p></b>"; 
+} else { 
+message = message + "<b><p style='color:red'>Try again my friend.</p></b>"; 
+}
+document.getElementById("response").innerHTML = message;
+} //end function answer
+     </script>
+ </head>
+   <footer> This website is made by Makaylie Roberds  </footer>
+ <body id="background">
+
+  <a href="http://bing.com" onclick="return banner()">
+  <header> I <span class="wrap-text">love</span> the Sunshine </header>
+  </a>
+  <nav> 
+    <ul id="navmenu">
+      <li class="navitem"> <a href="index.html"> Home </a> </li>
+      <li class="navitem"> <a href="images.html"> Images </a> </li>
+      <li class="navitem"> <a href="info.html"> About me </a> </li>
+    </ul>
+  </nav>
+    <h1>The Sunshine Shop </h1>
+
+    <div id="rightside">
+     <p class="paragraph"> Which is a vegetable</p>
+
+  <form>
+    <div id="response"></div>
+   <input type="radio" name="Produce" value="nope">Apple<br>
+   <input type="radio" name="Produce" value="Correct"> Carrot<br>
+   <input type="radio" name="Produce" value="No"> Orange<br>
+   <input type="radio" name="Produce" value="Not yet"> Grape<br>
+   <input type="button" value="Click here to Submit" onclick="answer()" id="button">
+  </form>
+
+    </div>
+
+ <iframe width="560" height="315" src="https://www.youtube.com/embed/_i8jtyXhnKo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <div id="leftside">
+      <p class="paragraph">  I <b>love</b> desgining so I started sewing and making stuff animals and small projects. My favorite thing to sew is my <u>sock plushies</u> they are adorable and you just want to cuddle them. I want to share them and sell them to people to help them smile, Thats why my name is <i>The Sunshine Shop</i>.
+     </p>
+     <audio width="400" height="220" controls autoplay>
+<source src="www.youtube.com/embed/1uICLZYh12k">
+Your browser does not support HTML 5 audio.
+</audio> 
+  </div>
+
+<div id="clearfloat"> </div>
+
+<div class="wrap-list">
+  <ol>
+  	<li class="listitem">Stuff animals</li>
+  	<li class="listitem">Pillow cases</li>
+  	<li class="listitem">Bags</li>
+  </ol>
+</div>
+  <div class="wrap-trivia">
+   <h2>Fruit and Veggie Trivia Question<h2/>
+  </div>
+	
+
+    <img src="https://images.stockfreeimages.com/2527/sfixl/25279801.jpg"/>
+    <img src="https://images.stockfreeimages.com/1487/sfixl/14876759.jpg"/>
+    
+   <hr>
+  <center> Makaylie<a href="https://www.youtube.com/user/madeeverydaywithdana"> A great sewing tutorial website</a></center>
+   </body> 
+</html>
